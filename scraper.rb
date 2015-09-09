@@ -14,7 +14,7 @@ def scrape_list(url)
     person['social'].each do |k, v|
       data[k] = v unless v.nil?
     end
-    ScraperWiki.save_sqlite([:id], data)
+    ScraperWiki.save_sqlite(['id'], data)
   end
 end
 
