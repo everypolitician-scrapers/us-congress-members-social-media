@@ -1,0 +1,8 @@
+
+.cache/*
+
+*.swp
+*.csv
+*.yaml
+
+*.sqlite
